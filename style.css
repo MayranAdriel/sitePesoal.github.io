@@ -1,0 +1,89 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@0,400;0,500;1,300&family=Rubik&display=swap');
+
+ * {
+     font-family: 'Rubik', sans-serif;
+ }
+
+ body {
+     display: block;
+     background-color: white;
+ }
+
+ header {
+    height: 60px;
+     width: 100%;
+     margin: auto;
+     color: white;
+     display: flex;
+     text-align: center;
+     flex-direction: row;
+     align-content: space-around;
+     background-color: rgb(42, 58, 67);
+ }
+
+ header a {
+     margin: auto;
+     text-decoration: none;
+     color: white;
+     font-size: 1.3rem;
+     width: 8%;
+     padding: 10px;
+
+ }
+
+ header a:hover {
+     font-size: 1.6rem;
+
+ }
+
+ .container {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+
+ }
+
+ .Mayran img {
+    width: 500px;
+    height: 600px;
+    border-radius: 50%;
+ }
+
+ .informacoes {
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+ }
+
+#titulo {
+    font-size: 3rem;
+ }
+
+ #fala {
+    text-align: justify;
+    font-size: 1.2rem;
+ }
+
+
+ .links{
+    margin-top: 60px;
+    flex-direction: row;
+    display: flex;
+ }
+ .links a {
+    display: flex;
+    width: 35%;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(42, 58, 67);
+    font-size: 1.2rem;
+    height: 60px;
+   
+ }
+
+ .links a:hover {
+    color: white;
+    background-color: rgb(42, 58, 67);
+ }
