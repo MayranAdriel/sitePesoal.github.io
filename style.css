@@ -45,8 +45,9 @@
 
  .Mayran img {
     width: 500px;
-    height: 600px;
+    height: 550px;
     border-radius: 50%;
+    border: solid;
  }
 
  .informacoes {
